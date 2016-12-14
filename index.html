@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-services-usage-production</title>
+  
+  <script src="object_hash.js"></script>
+  <script src="//code.angularjs.org/snapshot/angular.min.js"></script>
+  <script src="dist/script.js"></script>
+
+</head>
+<body ng-app="myServiceModule">
+  <div id="simple" ng-controller="MyController">
+  <input style='width:500px' ng-init="url='https://s3.amazonaws.com/pc3-test-lobo/equipment.json'" ng-model="url" >
+  <button ng-click="queueRequest(url);">Get</button>
+</div>
+</body>
+</html>
+
+<!-- 
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

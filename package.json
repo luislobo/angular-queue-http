@@ -1,0 +1,29 @@
+{
+  "name": "angular-queued-http",
+  "version": "0.0.1",
+  "description": "Angular Queued $http - It resolves to all concurrent requests to the same resource when the first one resolves",
+  "main": "dist/angular-queue-http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luislobo/angular-queue-http.git"
+  },
+  "keywords": [
+    "angular",
+    "$http",
+    "concurrent",
+    "request",
+    "promise"
+  ],
+  "author": "Luis Lobo Borobia <luislobo@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/luislobo/angular-queue-http/issues"
+  },
+  "homepage": "https://github.com/luislobo/angular-queue-http#readme",
+  "dependencies": {
+    "angular-md5": "^0.1.10"
+  }
+}
